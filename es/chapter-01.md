@@ -12,7 +12,7 @@ Las herramientas de programación de Ubuntu Touch (SDK) están preparadas para l
 
 Para hacer más cómodo de seguir el curso, sólo pondré las partes más importantes del código fuente. El resto de los archivos estarán en un repositorio de código fuente en Launchpad. Vendría bien conocer el funcionamiento básico de Bazaar.
 
-# Objetivos del cruso
+# Objetivos del curso
 El primer objetivo del curso es aprender a programar aplicaciones para Ubuntu Touch mientras te diviertes. La programación es una tarea que absorbe mucho tiempo y tiene que gustarte lo que estás haciendo. Las aplicaciones pueden ser sencillas o complejas, lo importante es que resuelvan una necesitad que tenemos. Por ejemplo, una aplicación que tenga un listado de las plantas del jardín y nos avise cuando tengamos que regarlas.
 
 Un buen diseño en la lógica de la aplicación puede reducir el tiempo de desarrollo de forma importante. De la misma forma un mal diseño puede hacer que acabemos tirando el código a la papelera de reciclaje y empezando de nuevo porque es más sencillo.
