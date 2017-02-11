@@ -1,3 +1,3 @@
 # Summary
-* [About...](READNE.md)
+* [About...](README.md)
 * [Introduction](chapter-01.md)
