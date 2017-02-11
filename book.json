@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "image-captions",
+        "katex",
+        "include"
+    ],
+    "pluginsConfig": {
+        "image-captions": {
+            "caption": "_CAPTION_"
+        }
+    }
+}
