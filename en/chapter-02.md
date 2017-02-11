@@ -120,7 +120,7 @@ In order to keep the good traditions, the first step is to program a minimal app
 
 ![Kit Updates](chapter-02/19_kit_update.jpg)
 
-# Project Creation
+## Project Creation
 
 Click on the File menu, New file or project. A window will appear with the types of projects that can be used. The user interface is made with QML which is a scripting language oriented to the creation of graphical interfaces. The logic of the application can be done with several languages. JavaScript will be used for now. Select the first option and then click on the ‘Choose’ button.
 
@@ -146,12 +146,12 @@ The project will open automatically.
 
 ![Project Opened](chapter-02/25_project_opened.jpg)
 
-# Running the Application on Your Computer
+## Running the Application on Your Computer
 To run the application you have to press the ‘Play’ button in the lower left part of Qt Creator.
 
 ![Run App on PC](chapter-02/26_run_app_pc.jpg)
 
-# Running the Application on a Real Device
+## Running the Application on a Real Device
 
 Before running the application, it is necessary to configure the device. For testing I have used an Aquaris M10 FHD tablet with the OTA-14 —although the procedure is the same on the other terminals. Leave ubuntu-sdk-ide open and connect the device via USB to the computer. To activate the development options, access the System Settings.
 
@@ -159,7 +159,7 @@ Before running the application, it is necessary to configure the device. For tes
 
 Click on About.
 
-![System Settings](chapter-02/28_device_about.jpg)
+![About](chapter-02/28_device_about.jpg)
 
 Select Developer Mode. This mode is disabled by default because it allows remote control of the device if it is connected by USB to the computer. Check the box.
 
