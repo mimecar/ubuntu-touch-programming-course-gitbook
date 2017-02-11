@@ -20,15 +20,15 @@ Un buen diseño en la lógica de la aplicación puede reducir el tiempo de desar
 # Tipos de aplicaciones
 Ubuntu Touch tiene tres tipos de aplicaciones. Se pueden encontrar aplicaciones Web (WebApps), Scopes y Aplicaciones nativas. Una aplicación web es básicamente una pestaña del navegador Web que se ejecuta de forma independiente. Tiene un icono propio en Unity (el lanzador de aplicaciones) y puede contener información remota de cualquier tipo. Por cuestiones de seguridad una aplicación Web no tiene acceso al contenido local del terminal.
 
-![Ejemplo de WebApp](/assets/chapter-01/01_webapp.png)
+![Ejemplo de WebApp](chapter-01/01_webapp.png)
 
 El scope es el segundo tipo de aplicación que encontramos en Ubuntu Touch. En cierta medida se comporta como una pantalla que muestra información al usuario. La información puede ser externa, por ejemplo la previsión del tiempo, o interna en forma de agregador de información. Un ejemplo de este caso sería el scope "Hoy" porque muestra la información de diferentes aplicaciones.
 
-![Ejemplo de Scope](/assets/chapter-01/02_scope.png)
+![Ejemplo de Scope](chapter-01/02_scope.png)
 
 Por último tenemos las aplicaciones nativas. En este caso las aplicaciones pueden acceder a todos los recursos del teléfono y son en principio más complejas que las aplicaciones Web y los scopes. Las aplicaciones están confinadas en Ubuntu Touch y sólo pueden acceder a su información propia. Si queremos acceder a la información de otras aplicaciones es necesario acceder al content-hub. Como ejemplo de aplicación nativa tenemos el calendario.
 
-![Ejemplo de Aplicación nativa](/assets/chapter-01/03-native_app.png)
+![Ejemplo de Aplicación nativa](chapter-01/03-native_app.png)
 
 # Evolución del curso
 Un detalle que quiero comentar (y que os cansaréis de que lo repita a lo largo del curso) es que este curso no es una clase magistral. Es importante que participéis ya sea con dudas, sugerencias o errores. El orden de los capítulos puede variar y los capítulos que ya estaban cerrados se pueden abrir para añadir nuevo contenido. Es algo vivo y que sólo puede mejorar si todos intervenimos en él. No importa que las dudas sean muy básicas ni el que dirán el resto de usuarios. Si sigues el curso es para aprender. Recuerda: la única pregunta estúpida es la que no se hace.

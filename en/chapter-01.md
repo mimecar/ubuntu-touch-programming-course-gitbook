@@ -28,15 +28,15 @@ A good design in the logic of the application can greatly reduce development tim
 # Types of Applications
 Ubuntu Touch has three types of applications. We can find Web Applications (WebApps), Scopes and Native Applications. A web application is basically a web browser tab that runs independently. It has its own icon in Unity (the application launcher) and can contain remote information of any type. For security reasons a Web application does not have access to the local content of the terminal.
 
-![WebApp Example](/assets/chapter-01/01_webapp.png)
+![WebApp Example](chapter-01/01_webapp.png)
 
 The scope is the second type of application found in Ubuntu Touch. To some extent it behaves like a screen that shows information to the user. The information can be external, for example the weather forecast, or internal in the form of information aggregator. An example of this case would be the "Today" scope. This scope shows information from different applications.
 
-![Scope Example](/assets/chapter-01/02_scope.png)
+![Scope Example](chapter-01/02_scope.png)
 
 Finally we have native applications. In this case the applications can access all the resources of the phone and are, eventually, more complex than the Web applications and the scopes. Applications are confined in Ubuntu Touch and can only access their own information. If we want to access information from other applications, we need to pass it through the content-hub. As an example of native application we have the calendar.
 
-![Native Application Example](/assets/chapter-01/03-native_app.png)
+![Native Application Example](chapter-01/03-native_app.png)
 
 # Evolution of the Course
 One detail that I want to point out (and that you will get tired of reading it throughout the course) is that this course is not a master class. It is important that you participate with either questions, suggestions or errors. The order of the chapters can vary and chapters that were already closed can be opened to add new content. This course is alive and can only be improved if we all get involved. It doesn’t matter if questions are very basic or what the other users would say. The main reason of following this course is learning. Remember: The only stupid questions is the one that you don’t ask.
