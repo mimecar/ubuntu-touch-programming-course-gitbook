@@ -11,8 +11,3 @@ Hay varias recursos asociados con el curso:
 Si tenéis algún problema para acceder al grupo de Telegram me podéis avisar con un mensaje (@mimecar).
 
 Espero que os guste el curso.
-
-Nota: El curso en castellano está también en el siguiente enlace.
-https://www.gitbook.com/book/mimecar/curso-de-programacion-de-ubuntu-phone-touch/details
-
-Iré migrando el contenido para que todos los idiomas estén en el mismo enlace.
