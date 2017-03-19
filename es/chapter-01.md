@@ -3,6 +3,8 @@ Este curso es un proyecto nuevo que empiezo para aprender a programar aplicacion
 
 Este curso no es una clase magistral en la que explico las cosas y los demás las hacen de forma automática. La idea es publicar capítulos y con la realimentación de los usuarios completar la documentación del curso. Si en un bloque concreto hay más interés se puede profundizar más. No hay ningún problema en preguntar las dudas en los medios asociados al curso.
 
+La documentación estará estructurada como un libro. Su acceso será gratuito y cualquier usuario podrá leerlo en el navegador Web o en los formatos PDF, ePub o Mobi. Se pueden añadir comentarios al libro aunque para hacerlo será necesario tener una cuenta creada en Gitbook. El código fuente de los ejemplos y las aplicaciones estará alojado en Launchpad usando Bazaar como control de versiones. En la misma página habrá una lista de correo en la que se pueden preguntar las dudas. De forma adicional a los recursos que he comentado, existe un panel de Trello con el estado del curso.
+
 Por último quiero agradecer a los usuarios que me han animado a empezar esta locura, entre ellos están kain_X_X o LarreaMikel. Un curso de este tipo no lo puede hacer un único usuario. Sólo cuando participan muchas personas se puede evolucionar y conseguir metas más grandes.
 
 # Conocimientos previos
@@ -44,7 +46,7 @@ El curso no está preparado en el sentido que lo escribiré semana a semana. Por
 
 # Recursos
 * Lista de correo: https://launchpad.net/~curso-ubuntu-phone-touch
-* Tablerto de Trello: https://trello.com/b/s55CcaLp/curso-de-programacion-espanol
+* Tablero de Trello: https://trello.com/b/s55CcaLp/curso-de-programacion-espanol
 
 # Colaboradores
 * Larrea Mikel: revisión de los capítulos.

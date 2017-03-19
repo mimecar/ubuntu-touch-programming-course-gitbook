@@ -7,7 +7,7 @@ En GNU/Linux las aplicaciones se encuentran en repositorios. El repositorio cont
 Las medidas alternativas son dos: crear un Live USB con Ubuntu y ejecutar el sistema operativo desde el USB o utilizar una máquina virtual que tenga Ubuntu instalado. La primera medida es más sencilla y funciona razonablemente bien si la memoria USB es rápida. La segunda medida es más cómoda ya que no depende de una memoria USB pero requiere de un ordenador más potente para mover el sistema operativo virtualizado.Si alguno está en uno de estos dos casos puede preguntar en la lista de correo y le guiaré con los pasos más importantes.
 
 Mi entorno de desarrollo es:
-* Ubuntu 16.04 LTS actualizada.
+* Ubuntu 16.04 LTS.
 * Aquaris E4.5 con la OTA-14.
 * Aquaris E5 HD con la OTA-14.
 * Aquaris M10 FHD con la OTA-14.
@@ -86,7 +86,7 @@ La primera pantalla del asistente es una introducción a QtCreator. Para continu
 
  ![Creación de los Kits](chapter-02/10_kits_empty.jpg)
 
-Pulsad en el botón 'Create new Kit'. Hay que seleccionar la primera opción.
+Pulsa en el botón 'Create new Kit'. Hay que seleccionar la primera opción.
 
 ![Kit para el escritorio](chapter-02/11_kit_desktop.jpg)
 
@@ -151,13 +151,13 @@ Se abrirá de forma automática el proyecto.
 
 ## Ejecución de la aplicación en el ordenador
 
-Para ejecutar la aplicación hay que pulsar el botón Play que está en la parte inferior izquierda.
+Para ejecutar la aplicación hay que pulsar el botón Play que está en la parte inferior izquierda de Qt Creator.
 
 ![Ejecutar la aplicación en el PC](chapter-02/26_run_app_pc.jpg)
 
 ## Ejecución de la aplicación en un dispositivo real
 
-Antes de ejecutar la aplicación es necesario configurar el dispositivo. Para las pruebas he partido de una tableta Aquaris M10 FHD con la OTA-13 aunque el procedimiento es el mismo en los otros terminales. Hay que dejar abierto ubuntu-sdk-ide y conectar el dispositivo por USB al ordenador. Para activar las opciones de desarrollo hay que acceder a la configuración del sistema.
+Antes de ejecutar la aplicación es necesario configurar el dispositivo. Para las pruebas he partido de una tableta Aquaris M10 FHD con la OTA-14 aunque el procedimiento es el mismo en los otros terminales. Hay que dejar abierto ubuntu-sdk-ide y conectar el dispositivo por USB al ordenador. Para activar las opciones de desarrollo hay que acceder a la configuración del sistema.
 
 ![Configuración del sistema](chapter-02/27_device_settings.jpg)
 

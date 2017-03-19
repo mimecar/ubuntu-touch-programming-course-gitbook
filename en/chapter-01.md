@@ -21,10 +21,6 @@ The main objective of the course is to learn how to program applications for Ubu
 
 A good design in the logic of the application can greatly reduce development time. In the same way a bad design can cause to end up throwing the code to the recycle bin and starting over, because it is easier to start with a different approach.
 
-The main objective of the course is to learn how to program applications for Ubuntu Touch while having fun. Programming is a time-consuming task and you have to like what you are doing. Applications can be simple or complex, the important thing is that they solve a need that we have. For example, an application that has a list of plants in the garden and let us know when we have to water them.
-
-A good design in the logic of the application can greatly reduce development time. In the same way a bad design can cause to end up throwing the code to the recycle bin and starting over, because it is easier to start with a different approach.
-
 # Types of Applications
 Ubuntu Touch has three types of applications. We can find Web Applications (WebApps), Scopes and Native Applications. A web application is basically a web browser tab that runs independently. It has its own icon in Unity (the application launcher) and can contain remote information of any type. For security reasons a Web application does not have access to the local content of the terminal.
 
