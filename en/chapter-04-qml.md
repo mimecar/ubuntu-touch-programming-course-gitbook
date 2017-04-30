@@ -1,6 +1,5 @@
-# Introducción
-En el capítulo anterior se creó una Web App desde cero. Aunque el contenido de este capítulo es relativamente independiente del anterior, os recomiendo que lo completéis primero. Aparte de la creación de la Web App se vieron otros conceptos como la creación de un paquete click o la publicación de la Web App en la tienda de Ubuntu. Si tenéis cualquier duda podéis preguntarla en los medios asociados al curso. No hay problema en preguntar dudas de un capítulo que ya esté publicado, cada uno sigue el curso al ritmo que puede.
+# Introduction
+Introduction
+In the previous chapter a Web App was created from scratch. Although the content of this chapter is relatively independent of the previous one, I recommend complete it first. This chapter consists of several parts. Remember that you can make suggestions to the course in the mailing list or the Telegram group.
 
-El capitulo de hoy durará varias entregas. Inicialmente pensaba incluirlo todo en una entrega pero en ese caso perdería a la mayor parte de los usuarios que siguen el curso. Prefiero publicar con más calma y que se entienda, a completar el curso en una fecha límite. Recordad que podéis hacer sugerencias al curso en la lista de correo, el canal del IRC o el grupo de Telegram.
-
-El objetivo final del capítulo es crear una calculadora completamente funcional. Inicialmente será una aplicación muy básica pero se irá mejorando de forma progresiva.
+The final goal of the chapter is to create a fully functional calculator. Initially, it will be a very basic application but it will progressively improve.

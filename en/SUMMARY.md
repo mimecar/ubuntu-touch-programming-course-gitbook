@@ -3,3 +3,5 @@
 * [Introduction](chapter-01.md)
 * [Installing the development tools](chapter-02.md)
 * [Creating a Web App](chapter-03-webapp.md)
+* [Creating a QML App](chapter-04-qml.md)
+  * [Introduction to QML language](chapter-04-s01.md)

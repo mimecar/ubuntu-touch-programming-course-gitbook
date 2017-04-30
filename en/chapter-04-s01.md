@@ -1,78 +1,84 @@
-# Introducción al lenguaje QML
-QML es un lenguaje que toma como base JavaScript y se utiliza para crear el interfaz de usuario de una aplicación. Permite usar tanto elementos tradicionales (botones, listas, etc.) como elementos gráficos a los que se le añade lógica. Como ejemplo del primer caso está el interfaz de usuario de Ubuntu Touch. Para el segundo caso hay varios [ejemplos en la Web de QT.](https://www.qt.io/ui/) QML se encarga de la visualización pero no de la lógica que implementa la aplicación.
+# Introduction to QML language
 
-Esa lógica se puede escribir en varios lenguajes, dependiendo de las necesidades que tengamos. Si la aplicación es un juego y necesita potencia de cálculo el lenguaje elegido sería C/C++. En cambio, si no realiza tareas que sean críticas en el tiempo se puede usar JavaScript. De momento las aplicaciones del curso usarán JavaScript y más adelante se pasará a C/C++.
+QML is a language that is based on JavaScript and is used to create the user interface of an application. It allows you to use both traditional components (buttons, lists, etc.) and graphic elements to which logic is added. An example of the first case is the Ubuntu Touch user interface. For the second case there are several examples on the [QT Web](https://www.qt.io/ui/). QML handles the visualization but not the logic that implements the application.
 
-**Creación del proyecto**
-La configuración del proyecto tiene que ser la siguiente:
-* Tipo de proyecto: QML App with Simple UI (qmake).
-* Kits: hay que seleccionar todos los kits instalados.
+This logic can be written in several languages, depending on the needs we have. If the application is a game and needs computing power, the language chosen would be C/C++. On the other hand, if the performance of the app is not critical, you can use JavaScript. At the moment the applications of the course will use JavaScript and later will be written in C/C++.
 
-El proyecto se creará con la plantilla elegida y se abrirá por defecto el archivo del interfaz de usuario (QML).
-![Ventana del proyecto](chapter-04-s01/01_project_windows.png)
+## Creation of the project
 
-La estructura que tiene el proyecto varía un poco respecto a la que tenía la Web App.
-![Archivos del proyecto](chapter-04-s01/02_project_files.png)
+The configuration of the project must be the following:
+* Project type: QML App with Simple UI (qmake).
+* Kits: select all installed kits.
 
-En negrita aparecen marcados los archivos que se pueden modificar. El resto de archivos es de uso interno del IDE y no conviene modificarlos.
-* Calculadora.pro: archivo principal del proyecto.
-* Calculadora
-  * Calculadora.pro: información para el compilador.
+The project will be created with the chosen template and will open by default, the user interface (QML) file.
+
+![Project Window](chapter-04-s01/01_project_windows.png)
+
+The structure of the project varies slightly comparing it to the one that had the Web App.
+
+![Project Structure](chapter-04-s01/02_project_files.png)
+
+Files that can be modified are displayed in bold type. The remaining files are for internal use of the IDE and should not be modified.
+* Calculator.pro: main project file.  
+* Calculator
+  * Calculator.pro: information for the compiler.
   * QML
-    * tests/unit: los archivos de esta carpeta se usan para hacer validaciones de la aplicación.
-    * **Main.qml:** archivo que contiene el interfaz de usuario de una pantalla.
- * Other files
-    * tests/autopilot: los archivos de esta carpeta se utilizan para ejecutar la aplicación.
-    * **Calculadora.apparmor:** permisos de la aplicación
-    * **Calculadora.desktop:** información de la aplicación para el lanzador de aplicaciones.
-    * **Calculadora.png:** icono de la aplicación.
-* Other files
- * **manifest.json.in:** información para la tienda de Ubuntu con los datos de la aplicación.
+    * Tests / unit: The files in this folder are used to make validations of the application.
+    * **Main.qml:** file containing the user interface of a screen.
+  * Other files
+    * Tests / autopilot: The files in this folder are used to run the application.
+    * **Calculator.apparmor:** application permissions
+    * **Calculator.desktop:** application information for the application launcher.
+    * **Calculator.png:** application icon.
+  * Other files
+    * **Manifest.json.in:** information for the Ubuntu store with application data.
 
-El entorno de desarrollo tiene una pestaña que pone **Design**. Esa pestaña analiza el código QML generado y lo convierte en el interfaz de usuario. La herramienta no funciona bien y da errores aunque el código QML sea válido. Lo podéis ver en la pantalla del proyecto con las palabras que están marcadas en rojo en las líneas 23, 24 y 25. Por esta razón las pruebas del interfaz de usuario se realizarán ejecutando la aplicación en el ordenador.
+The IDE has a tab that with the text 'Design'. This tab analyzes the generated QML code and converts it into the user interface. The tool does not work well and gives errors even if the QML code is valid.
 
-# Estructura del archivo QML
+You can see this on the project screenshot on the words that are marked in red on lines 23, 24 and 25. For this reason, user interface tests will be performed by running the application on the computer.
 
-Todos los archivos QML tienen una estructura común que se verá a continuación. En negrita está el código fuente y la explicación está como texto normal.
 
-QML permite usar una serie de componentes que ya están definidos. Esta información se le pasa al proyecto con la sentencia import. Es posible usar diferentes versiones de los componentes aunque lo normal sería elegir la última versión disponible.
+# Structure of the QML file
+
+All QML files have a common structure that you will see below. QML allows you to use a number of components that are already defined. This information is passed to the project with the import statement. It is possible to use different versions of the components although it would be normal to choose the latest available version.
 
 ```js
 import QtQuick 2.4
 import Ubuntu.Components 1.3
 ```
 
-Los comentarios son guías que escribe el programador sobre partes concretas del código. Os recomiendo escribir comentarios en las partes de código que sean complejas. Una cosa es escribirlo en el momento y conocer todos los detalles y otra diferente hacerlo cuando han pasado dos semanas.
+## Comments
+Comments are guides that the programmer writes about specific parts of the code. I recommend writing comments on code parts that are complex. It is best to write them when the code is still fresh. If you wait a while you may not remember all the details.
 
-Los comentarios se pueden poner de dos formas:
+Comments can be write in two ways:
 
-* Si el comentario tiene varias líneas se usa la pareja
+* If the comment has several lines you can use
 ```js
 /*
- * Descripción
+ * Description
  */
 ```
-* Mientras que si tiene sólo una línea
+* Whereas if you have only one line
 
  ```js
- // Descripción
+ // Description
  ```
 
-En el código de ejemplo lo vemos de la siguiente forma:
-
+* In the sample code it looks like this:
 ```js
 /*!
  \brief MainView with a Label and Button elements.
 */
 ```
 
-MainView es el elemento raíz del interfaz de usuario. Añade de forma automática una cabecera, una barra de herramientas y se adapta a la rotación del dispositivo.
+## MainView
+MainView is the root element of the user interface. It automatically adapts to the rotation of the device.
 
 ```js
 MainView {
 ```
 
-Este bloque de código no hay que modificarlo. Se usa a nivel interno.
+This block of code doesn’t need to be modified. It is used internally.
 
 ```js
 // objectName for functional testing purposes (autopilot-qt5)
@@ -82,23 +88,25 @@ objectName: "mainView"
 applicationName: "calculadora.innerzaurus"
 ```
 
-Las dos siguientes sentencias se encargan de definir el tamaño inicial de la pantalla. Un detalle importante es que las dimensiones no se definen en píxeles sino en unas unidades propias llamadas gridUnits (gu). ¿Cuál es la razón de inventarse unas unidades nuevas si ya existen los píxeles? Con un ejemplo se verá más claro.
+## Grid Unit
+The next two statements are responsible for defining the initial size of the screen. An important detail is that the dimensions are not defined in pixels but in some units called gridUnits (gu). The reason to invent new units and not using pixels that already exists is that gridUnits is universal to the different screen sizes and translates. An example will make this clear.
 
-Supongamos que tenemos un dispositivo con una resolución de 600 x 800 píxeles. Se define un rectángulo con las dimensiones 300x800 que ocupa la mitad de la pantalla. Ahora se utiliza un dispositivo que tiene una resolución de pantalla de 1080x1920. El rectángulo no llega a la mitad de la pantalla. Para evitar este problema se definen las dimensiones en gu (gridUnit). En el código se ponen las dimensiones e internamente se asocian esas dimensiones con las características de la pantalla. El resultado final es que el rectángulo tiene siempre las mismas medidas con independencia de la pantalla.
+Suppose that we have a device with a resolution of 600 x 800 pixels. If a rectangle is defined with the dimensions 300x800 pixels, will occupy the middle of the screen. Now if you use a device that has a screen resolution of 1080x1920 pixels, the rectangle will not reach the middle of the screen. To avoid this problem, define the dimensions in gu (gridUnit). If the dimensions are defined in gu, internally, the system will calculate those dimensions with the characteristics of the screen. The final result will be that the rectangle always has the same size regardless of the screen resolution.
 
 ```js
 width: units.gu(100)
 height: units.gu(75)
 ```
 
-El elemento Page define una vista. Se recomienda que esté siempre dentro de un elemento MainView (nuestro caso concreto) o de un AdaptivePageLayout. Contiene una cabecera con un identificador (id), un titulo (title) y un estilo que se aplica a los elementos de la cabecera. El estilo se define dentro del elemento StyleHints.
+## Page
+The Page element defines a view. It is recommended that it be included within a MainView element (our specific case) or an AdaptivePageLayout element. It contains a header with an identifier, title and style that applies to the elements of the header. The style is defined within the StyleHints element.
 
 ```js
 Page {
   header: PageHeader {
   id: pageHeader
 
-  title: i18n.tr("Calculadora")
+  title: i18n.tr("Calculator")
 
   StyleHints {
     foregroundColor: UbuntuColors.orange
@@ -108,87 +116,100 @@ Page {
 }
 ```
 
-En el archivo QML que aparece por defecto hay varios componentes. Para que sea más sencillo de estudiar se crearán desde cero con una explicación más detallada. Tenéis que borrar las líneas de la 28 a la 53. Para ver el interfaz de usuario que se crea es necesario pulsar en el botón de Play. Aunque se puede probar también en un dispositivo físico os recomiendo que trabajéis con el escritorio. El proceso de prueba es más rápido y al principio lo usaréis mucho.
+## Run Demo
+To see the user interface that is created it is necessary to click on the Play button. Although you can also try on a physical device I recommend that you work with the desktop. The test process is faster and at first you will use it a lot.
 
-![Código de ejemplo](chapter-04-s01/03_code_sample.png)
+![Template](chapter-04-s01/03_code_sample.png)
 
-# Creación del interfaz de la calculadora
+In the default QML file there are several components. To make it easier to learn it will be created from scratch with a more detailed explanation. You have to delete the lines from 28 to 53.
 
-A continuación se verá un diseño inicial de la calculadora con etiquetas. Servirá para introducir el funcionamiento de los componentes y tener una base mínima para continuar con QML.
 
-## Etiqueta (label)
+# Creating the Calculator Interface
 
-Una etiqueta es un componente que muestra un texto. Su estructura mínima es:
+Below you will see an initial design of the calculator with labels. It will help to introduce the way components works and will get a minimum base to continue with QML.
 
-```js
-Label {
-  text: "Hola mundo"
-}
-```
+## Label
 
-El código lo podéis pegar a partir de la línea 28. Como prueba tenéis que añadir dos etiquetas con la forma que se muestra a continuación. Después ejecutad la aplicación en el escritorio.
+A label is a component that displays text. Its minimum structure is:
 
 ```js
 Label {
-  text: "Hola mundo. Miradme, estoy programando en QML"
-}
-
-Label {
-  text: "Soy otra etiqueta"
+  text: "Hello World"
 }
 ```
 
-Al ejecutar el código se muestra la cabecera pero ninguna de las dos etiquetas. Comentad ahora las líneas de la cabecera y ejecutad la aplicación.
+Add the following code from line 28. Then run the application on the desktop.
 
-![Etiquetas superpuestas](chapter-04-s01/04_code_labels.png)
+```js
+Label {
+  text: "Hello World. Look at me, I'm programming in QML"
+}
 
-Ahora aparecen las etiquetas pero las dos están superpuestas. Por una parte está la definición del componente y por otra parte la organización de los mismos. Si se muestra la cabecera no aparecen las etiquetas y si se elimina la cabecera aparecen las etiquetas superpuestas. Los componentes se pueden organizar en filas, en columnas o en un grid que combina filas y columnas.
+Label {
+  text: "I am another label"
+}
+```
 
-Para distribuir las etiquetas en una columna hay que meterlas dentro de un elemento Column.
+Now comment the lines in the header and run the application.
+
+![Label Overlay](chapter-04-s01/04_code_labels.png)
+
+The labels are shown, but the two are overlayed. In one hand there is the definition of the component and on the other hand, its organization. If the header is displayed, the tags do not show and if the header is removed the tags overlap.
+
+## Component Organization
+Components can be organized in rows, in columns or in a grid —that combines rows and columns. To distribute labels in a column they have to be inside a Column element.
+
 
 ```js
 Column {
 
   Label {
-    text: "Hola mundo. Miradme, estoy programando en QML"
+    text: "Hello World. Look at me, I'm programming in QML"
   }
 
   Label {
-    text: "Soy otra etiqueta"
+    text: "I am another label"
   }
 
 }
 ```
 
-Con la modificación se aprecia la mejora.
+With this modifications we can see the improvement.
 
-![Distribución de los componentes en columna](chapter-04-s01/05_code_columns.png)
+![Column of Labels](chapter-04-s01/05_code_columns.png)
 
-Al restaurar el código de la cabecera vuelven a desaparecer las etiquetas. QML no nos tiene manía. Realmente las etiquetas están ocultas por la cabecera, por lo que hace falta definir una relación entre la cabecera y la columna
+When you restore the header code, the labels disappear again. It's not that qml doesn’t like us. The labels are actually hidden by the header, so it is necessary to define a relation between the header and the column
 
 ```js
 Column {
   anchors.top: pageHeader.bottom
 
   Label {
-    text: "Hola mundo. Miradme, estoy programando en QML"
+    text: "Hello World. Look at me, I'm programming in QML"
   }
 
   Label {
-    text: "Soy otra etiqueta"
+    text: "I am another label"
   }
 
 }
 ```
 
-El resultado ya es el esperado.
+The result is the expected now.
 
-![Pantalla final](chapter-04-s01/06_code_end.png)
+![Chapter End](chapter-04-s01/06_code_end.png)
 
-## Ejercicios
+# Exercises
+In the previous chapters you finished the exercises too quickly. In this chapter this will not be the case. The exercises are:
 
-En los capítulos anteriores habéis acabado pronto de hacer los ejercicios. La cosa cambia a partir de este capítulo porque os pondré deberes para que no sea tan sencillo. Los ejercicios son:
+* **Exercise 01.** Create three columns one after the other and show the numeric keypad numbers (1, 4, 7, 2, 5, 8, 3, 6, 9; 0).
 
-**Ejercicio 01**. Crear tres columnas que estén seguidas y que muestren los números del bloque numérico del teclado (1, 4, 7; 2, 5, 8; 3, 6, 9; 0).
+* **Exercise 02.** Distribute keypad numbers as a table by combining columns and rows. The element to create the rows is Row and is used similarly to the element Column. You may use the documentation included in  the SDK but you may not search the solution on the Internet. To view the SDK documentation, press the F1 key with a QML component selected.
 
-**Ejercicio 02**. Distribuir los números del teclado numérico en forma de tabla combinando columnas y filas. El elemento para crear las filas es Row y se usa de forma similar a la columna. Os dejo usar la documentación que incluye el SDK pero no buscar la solución en Internet. Para ver la documentación del SDK hay que pulsar la tecla F1 teniendo seleccionado un componente QML.
+# Source Code
+* [Source code on GitHub](https://github.com/mimecar/ubuntu-touch-programming-course).
+
+# People who have collaborated
+* Larrea Mikel: revision of the chapter in Spanish.
+* Cesar Herrera: revision of the English translation.
+* Joan CiberSheep: revision of the English translation.
