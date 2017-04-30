@@ -5,7 +5,7 @@ The course is currently in Spanish and English. The version in Spanish was the i
 
 There are several resources associated with the course:
 - [LaunchPad mailing list](https://lists.launchpad.net/ubuntu-touch-programming-course/).
-- Source code.
+- [Source code on GitHub](https://github.com/mimecar/ubuntu-touch-programming-course).
 - [Telegram group](https://t.me/joinchat/AAAAAAqGbgjrxl03SgBG_g).
 
 If you have any problems accessing the Telegram group you can send me a message (@mimecar).
