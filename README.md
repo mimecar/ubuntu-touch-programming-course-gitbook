@@ -1,4 +1,4 @@
-# ubuntu-touch-programming-course-gitbook
+# Ubuntu Touch Programming course (MarkDown code)
 The [Ubuntu Touch Programming course](https://www.gitbook.com/book/mimecar/ubuntu-touch-programming-course) uses GitBook to generate documentation in PDF, ePub and Mobi (Kindle) formats. The source code that generates the documentation uses MarkDown and I had it in a private repository.
 
 I have decided to make public the source code that generates the documentation for several reasons:
