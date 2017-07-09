@@ -273,7 +273,7 @@ Button {
 
 Based on the code that shows the labels in a grid, we need to make several changes:
 
-* Replace the labels with buttons. To do this, is enough to change the Label text by the object Button.
+* Replace the labels with buttons. To do this, it is enough to change the Label text by the object Button.
 * Modify the anchor of the grid so that it is aligned at the bottom of the screen.
 * Add two new columns to the table with the buttons shown in the image.
 
@@ -373,7 +373,7 @@ Grid {
 }
 ```
 
-At this point, the application is starting to look like a calculator. There are two changes that would greatly improve its appearance though. The first is the colour of the buttons. The calculators have dark buttons and depending on the function, that colour varies. The second change is the size of the buttons. Do not forget that the calculator must work on a real device and normally the user's fingers take up more space than the mouse pointer.
+At this point, the application is starting to look like a calculator. There are two changes that would greatly improve its appearance though. The first is the colour of the buttons. The calculators have dark buttons and depending on the function, that colour varies. The second change is the size of the buttons. Do not forget that the calculator must work on a real device and normally the user fingers take up more space than the mouse pointer.
 
 ## Colour Settings
 Ubuntu Touch has a series of colours defined in its palette. If they are used in the design of the user interface, the application will look integrated into the system. To define the background colour of a button, the colour property is used.
