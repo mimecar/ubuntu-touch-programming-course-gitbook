@@ -264,7 +264,7 @@ Grid {
 
 The label is a component that allows to display information to the user. The calculator that is being developed must allow the user to enter numbers and the operations to be performed with. To do this you have to use another component: the button.
 
-A button has an associated text that tells the user the function it performs. When the user clicks or taps it, an action is generated that allows to execute an associated code. The button structure is a bit more complex than the label structure. We will be learn it gradually.
+A button has an associated text that tells the user the function it performs. When the user clicks or taps it, an action is generated that allows to execute an associated code. The button structure is a bit more complex than the label structure. We will learn it gradually.
 ```js
 Button {
   text: "Text"
