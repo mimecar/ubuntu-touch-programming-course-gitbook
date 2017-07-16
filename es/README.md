@@ -4,7 +4,7 @@ Ubuntu Touch es una versión de Ubuntu que se ejecuta en dispositivos móviles. 
 El curso está en estos momentos en castellano y en inglés. La versión en castellano fue la versión inicial por lo que tiene más contenido publicado. Por su parte la versión inglesa empieza en febrero de 2017. Cada mes publicaré una traducción nueva de la versión inglesa y un nuevo capítulo en castellano.
 
 Hay varias recursos asociados con el curso:
-- [Lista de correo de LaunchPad](https://launchpad.net/~curso-ubuntu-phone-touch).
+* [Información del proyecto.](https://github.com/mimecar/ubuntu-touch-programming-course-gitbook/projects/1)
 - [Código fuente](https://launchpad.net/curso-ubuntu-phone-touch).
 - [Grupo de Telegram](https://t.me/joinchat/AAAAAEDaiBnqec_E5yhYNQ).
 
