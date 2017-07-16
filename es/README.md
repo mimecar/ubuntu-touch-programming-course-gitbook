@@ -5,8 +5,8 @@ El curso está en estos momentos en castellano y en inglés. La versión en cast
 
 Hay varias recursos asociados con el curso:
 * [Información del proyecto.](https://github.com/mimecar/ubuntu-touch-programming-course-gitbook/projects/1)
-- [Código fuente](https://launchpad.net/curso-ubuntu-phone-touch).
-- [Grupo de Telegram](https://t.me/joinchat/AAAAAEDaiBnqec_E5yhYNQ).
+* [Código fuente](https://launchpad.net/curso-ubuntu-phone-touch).
+* [Grupo de Telegram](https://t.me/joinchat/AAAAAEDaiBnqec_E5yhYNQ).
 
 Si tenéis algún problema para acceder al grupo de Telegram me podéis avisar con un mensaje (@mimecar).
 
