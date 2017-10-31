@@ -11,3 +11,5 @@
   * [Adaptación del interfaz a la pantalla](chapter-04-s05.md)
   * [Creación de componentes personalizados](chapter-04-s06.md)
   * [Lógica de la aplicación](chapter-04-s07.md)
+* [Conceptos avanzados de QML](chapter-05-advanced.md)  
+    * [Acceso a base de datos con QML](chapter-05-s01.md)

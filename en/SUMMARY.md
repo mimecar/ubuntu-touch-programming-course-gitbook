@@ -6,3 +6,5 @@
 * [Creating a QML App](chapter-04-qml.md)
   * [Introduction to QML language](chapter-04-s01.md)
   * [Organizing components](chapter-04-s02.md)
+* [Advanced QML Concepts](chapter-05-advanced.md)  
+  * [Database access with QML](chapter-05-s01.md)
