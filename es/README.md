@@ -13,6 +13,8 @@ Hay varias recursos asociados con el curso:
 * Máquina virtual
   * [Ubuntu Mate con el SDK configurado para empezar a trabajar. Usuario "ubucon", password "ubucon"](https://goo.gl/HqUPvV)
 
+Nota: [la versión beta de Telegram de UBports](https://github.com/ubports/telegram-app/releases/tag/v2.5.0) puede usar supergrupos.
+
 Si tenéis cualquier duda podéis preguntarme por Telegram. Mi usuario es [@mimecar](http://t.me/mimecar).
 
 Espero que os guste el curso.

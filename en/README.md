@@ -13,6 +13,8 @@ There are several resources associated with the course:
 * Virtual Machine
   * [Ubuntu Mate with the SDK configured to start working. User "ubucon", password "ubucon"](https://goo.gl/HqUPvV)
 
+Note: [the Telegram beta version of UBports](https://github.com/ubports/telegram-app/releases/tag/v2.5.0) can use supergroups.
+
 If you have any questions you can ask me by Telegram. My user is [@mimecar](http://t.me/mimecar).
 
 I hope you like the course.
