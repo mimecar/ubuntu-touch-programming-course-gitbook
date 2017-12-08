@@ -8,3 +8,4 @@
   * [Organizing components](chapter-04-s02.md)
 * [Advanced QML Concepts](chapter-05-advanced.md)  
   * [Database access with QML](chapter-05-s01.md)
+  * [QML and Charts](chapter-05-s02.md)
