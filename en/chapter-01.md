@@ -4,7 +4,7 @@ This course is a new project to learn how to program applications that work on U
 
 This course is not a master class in which I explain something and others repeat them automatically. The idea, is to publish chapters and complete the course documentation with the feedback of the other users. If a particular block gets more interest, it can be extend later. There is no problem in asking questions in the resources associated with the course.
 
-The documentation will be structured as a book. Its access is free and any user can read it in the browser or as PDF, ePub or Mobi files. It is possible to add comments to the book, although it is necessary to have an account created in Gitbook. The source code for the examples and applications will be hosted on Launchpad using Bazaar as version control. On the same page there is a mailing list in which you can ask questions. Additional to the resources mentioned earlier, there is also a Trello board with the course status.
+The documentation will be structured as a book. Its access is free and any user can read it in the browser or as PDF, ePub or Mobi files. You can [add comments to the book](https://github.com/mimecar/ubuntu-touch-programming-course-gitbook/issues) in the GitHub repository. The examples source code is hosted in GitHub and uses Git as version control.
 
 Finally I want to thank the users who have encouraged me to start this madness, among them are kain_X_X and LarreaMikel. A course of this type can not be done by a single user. Evolving and achieving larger goals is only possible when many people contribute to.
 
