@@ -18,7 +18,7 @@ Now, in this chapter, we want improve that application adding an analytic featur
 
 # Charts with QML
 
-The presented solution uses the [open source Javascript library Chart.js](http://www.chartjs.org/) as drawing library which uses the new HTML5 elements. To use it form QML is necessary a "binding" library placed in the middle between Chats.js and the QML code. That binding is provided by another open source library named [qchart.js](https://github.com/jwintz/qchart.js ) that define a custom QML Component representing a chart that wrap Chart.js object.
+The presented solution uses the [open source Javascript library Chart.js](http://www.chartjs.org/) as drawing library which uses the new HTML5 elements. To use it form QML is necessary a "binding" library placed in the middle between Charts.js and the QML code. That binding is provided by another open source library named [qchart.js](https://github.com/jwintz/qchart.js) that define a custom QML Component representing a chart that wrap Chart.js object.
 
 Thanks to Jwintz, the author of **qchart.js**, for his great job! But don’t worry, we don’t need to manage any low level details about that.
 
@@ -26,7 +26,7 @@ Thanks to Jwintz, the author of **qchart.js**, for his great job! But don’t wo
 
 If you import our sample application into Ubuntu SDK IDE, the following configuration steps can be skipped. They must be executed if you are creating a new QML application from scratch and you need chart support.
 
-To draw charts from our QML application is necessary include two files (you can find all the necessary files from https://github.com/jwintz/qchart.js) :
+To draw charts from our QML application is necessary include two files (you can find all the necessary files from https://github.com/jwintz/qchart.js):
 
 ## Qchart.js
 Is the Javascript drawing library containing the core functions to draw the chart, calculates the axis scales and so on. It is a version of Chart.js library already bundled with the "qchart.js" one (with maybe with some little patches).
@@ -59,7 +59,7 @@ If you import the "WeatherRecorderChart" project into Ubuntu SDK IDE in the proj
 
 If you run the application for the first time (pressing the green "Play" icon) you get that application page:
 
-![Weather Recorder Application](chapter-05-s02/02_application.png)
+![Weather Recorder Configuration](chapter-05-s02/02_application.png)
 
 When you have accepted (or updated) the proposed configuration you get the new Application home page:
 
