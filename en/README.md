@@ -18,3 +18,25 @@ Note: [the Telegram beta version of UBports](https://github.com/ubports/telegram
 If you have any questions you can ask me by Telegram. My user is [@mimecar](http://t.me/mimecar).
 
 I hope you like the course.
+
+
+
+# List of chapters
+
+* About...
+* Introduction
+* Installing the development tools
+* Creating a Web App
+* Creating a QML App
+  * Introduction to QML language
+  * Organizing componentes
+  * Formatting labels and events **(Spanish only - Translation in progress)**
+  * Introduction to JavaScript **(Spanish only - Translation in progress)**
+  * Adapting the interface to the screen **(Spanish only - Translation in progress)**
+  * Creating Custom Components **(Spanish only - Translation in progress)**
+  * Application Logic **(Spanish only - Translation in progress)**
+* Native desktop applications with QML
+  * Introduction to the application
+* Advanced QML concepts
+  * Database access with QML
+  * QML and Charts
