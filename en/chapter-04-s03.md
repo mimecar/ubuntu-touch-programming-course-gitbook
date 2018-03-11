@@ -114,3 +114,6 @@ As the final exercise of this chapter, I will ask you to add the logic to all th
 This part is a little bit shorter than the previous ones. Besides learning how the QML components work, I am introducing logic to the app. This logic allows the app to perform certain actions when users work with it. In the course, I start from scratch considering the knowledge of the user in programming QML and general programming. That is the reason why I am introducing concepts step by step to make it easy to follow.
 
 If you have any question, please contact me using the contact details associated with the course and I will be pleased to answer all your questions.
+
+# People who have collaborated
+* Santiago Mohr: English translation.
