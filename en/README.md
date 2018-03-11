@@ -22,7 +22,6 @@ I hope you like the course.
 
 
 # List of chapters
-
 * About...
 * Introduction
 * Installing the development tools
@@ -30,7 +29,7 @@ I hope you like the course.
 * Creating a QML App
   * Introduction to QML language
   * Organizing componentes
-  * Formatting labels and events **(Spanish only - Translation in progress)**
+  * Formatting labels and events
   * Introduction to JavaScript **(Spanish only - Translation in progress)**
   * Adapting the interface to the screen **(Spanish only - Translation in progress)**
   * Creating Custom Components **(Spanish only - Translation in progress)**
