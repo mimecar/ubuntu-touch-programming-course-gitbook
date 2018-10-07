@@ -1,20 +1,21 @@
 # Organización de los componentes
+
 En el ejercicio 1 habéis distribuido los números en columnas. Como me habéis comentado esa distribución de los números corresponde a un teclado de teléfono y no al de una calculadora. Con el fin de que quede más claro añado una tabla con la distribución que se debe seguir. He añadido un par de textos nuevos para simplificar más adelante el desarrollo.
 
 | Columna 1 | Columna 2 | Columna 3 |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **7** | 8 | **9** |
 | **4** | 5 | **6** |
 | **1** | 2 | **3** |
 | **0** | . | **EXP** |
 
-La tabla tiene tres columnas. Si se agrupan los números en columnas (como se pedía en el ejercicio) el resultado sería el mostrado en la siguiente imagen.
+La tabla tiene tres columnas. Si se agrupan los números en columnas \(como se pedía en el ejercicio\) el resultado sería el mostrado en la siguiente imagen.
 
-![Resultado del ejercicio 1](chapter-04-s02/01_exercise_01.png)
+![Resultado del ejercicio 1](../.gitbook/assets/01_exercise_01.png)
 
 El bloque de código es:
 
-```js
+```javascript
 // Primera columna
 Column {
 
@@ -94,9 +95,9 @@ Salvo que estéis programando una calculadora de diseño, la captura de pantalla
 
 ## El layout Row
 
-El layout Row (fila) funciona igual que Column con la diferencia que los componentes se distribuyen en una fila. La estructura que sigue el layout es la siguiente:
+El layout Row \(fila\) funciona igual que Column con la diferencia que los componentes se distribuyen en una fila. La estructura que sigue el layout es la siguiente:
 
-```js
+```javascript
 Row {
   // Componente
 
@@ -104,8 +105,9 @@ Row {
 ```
 
 Siguiendo con el ejemplo de la tabla anterior las filas se definirían de la siguiente forma:
+
 | Columna 1 | Columna 2 | Columna 3 |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **7** | **8** | **9** |
 | 4 | 5 | 6 |
 | **1** | **2** | **3** |
@@ -113,12 +115,11 @@ Siguiendo con el ejemplo de la tabla anterior las filas se definirían de la sig
 
 Si la tabla se define usando únicamente filas aparecería el mismo problema de antes. La única diferencia es que los números estarían distribuidos en filas y no en columnas. Para resolver el problema bien es necesario separar la tabla en filas y columnas. Las filas contendrán los números en horizontal y será en total cuatro. Ya sólo quedaría definir la relación que tienen las filas entre sí usando el layout Column.
 
-![Resultado del ejercicio 2](chapter-04-s02/02_exercise_02.png)
+![Resultado del ejercicio 2](../.gitbook/assets/02_exercise_02.png)
 
 El código es parecido al caso anterior. Sólo hay que cambiar la forma en la que están organizados los componentes.
 
-```js
-
+```javascript
 // Primera columna
 Column {
 
@@ -199,9 +200,10 @@ Column {
 De esta forma se logra el objetivo de distribuir los números en una tabla. Al separar la definición de las filas y las columnas es posible tener en una fila 3 componentes y en otra sólo uno. Si todas las filas de la tabla tienen el mismo número de elementos se puede usar el layout Grid que simplifica el código QML y nos da más flexibilidad
 
 ## El layout grid
+
 Cuando los componentes se distribuyen en forma de tabla y todas las filas tienen el mismo número de columnas se puede usar este layout. La estructura que sigue es la siguiente:
 
-```js
+```javascript
 Grid {
   columns: 3
 
@@ -211,11 +213,11 @@ Grid {
 
 El parámetro más importante es el número de columnas. De forma automática el layout distribuirá los componentes hasta llegar al número de columnas que se han definido. Si se introduce un componente más automáticamente añade una fila y lo añade en la primera columna.
 
-![Resultado del ejercicio 3](chapter-04-s02/03_exercise_03.png)
+![Resultado del ejercicio 3](../.gitbook/assets/03_exercise_03.png)
 
 Al definir un layout se pueden añadir una serie de parámetros que modifican su comportamiento. En este caso se define el número de columnas. Como podéis ver en el código los componentes no tienen ninguna relación que indique como van distribuidos. Están todos seguidos y es el Grid el que se encarga de distribuirlos.
 
-```js
+```javascript
 Grid {
 
   anchors.top: pageHeader.bottom
@@ -278,26 +280,27 @@ Grid {
 ```
 
 ## El botón
+
 La etiqueta es un componente que permite mostrar información al usuario. En el capítulo ha servido como introducción a QML y al uso de los layouts. La calculadora que se está desarrollando tiene que permitir al usuario introducir los números y las operaciones a realizar. Para hacerlo hay que recurrir a otro componente como es el botón.
 
 Un botón tiene asociado un texto que indica al usuario la función que realiza. De la misma forma al pulsarlo el usuario se genera una acción que permite ejecutar un código asociado. La estructura del botón es un poco más compleja que la que tiene la etiqueta y se irá viendo poco a poco.
 
-```js
+```javascript
 Button {
   text: "Texto"
 }
 ```
 
-**Ejercicio 4**. Tomando como base el código que muestra las etiquetas en un grid hay que hacer varios cambios: * Sustituir las etiquetas por botones. Para hacerlo es suficiente con cambiar el texto Label por Button.
+**Ejercicio 4**. Tomando como base el código que muestra las etiquetas en un grid hay que hacer varios cambios: \* Sustituir las etiquetas por botones. Para hacerlo es suficiente con cambiar el texto Label por Button.
 
 * Modificar el anchor del grid para que esté alineado en la parte inferior de la pantalla.
 * Añadir a la tabla dos columnas nuevas con los botones que se muestran en la imagen.
 
-![Resultado del ejercicio 4](chapter-04-s02/04_exercise_04.png)
+![Resultado del ejercicio 4](../.gitbook/assets/04_exercise_04.png)
 
 El código del ejercicio es el siguiente:
 
-```js
+```javascript
 Grid {
 
   anchors.bottom: page.bottom
@@ -397,7 +400,7 @@ En este punto la aplicación ya se empieza a parecer a una calculadora. Hay dos 
 
 Ubuntu Touch tiene una serie de colores definidos en su paleta. Si se emplean a la hora de diseñar el interfaz de la aplicación el resultado será una aplicación que queda visualmente integrada en el sistema. Para definir el color de fondo de un botón se usa la propiedad color.
 
-```js
+```javascript
 Button {
   text: "8"
   color: UbuntuColors.graphite
@@ -406,10 +409,11 @@ Button {
 
 **Ejercicio 5**. Tenéis que cambiar el color de fondo de todos los botones. Los números deben tener un color gris oscuro. Las operaciones un gris claro y los botones DEL y AC un color rojizo. Para completar el ejercicio hay que cambiar el color de fondo. No importa que no coincida con el de la pantalla.
 
-![Resultado del ejercicio 5](chapter-04-s02/05_exercise_05.png)
+![Resultado del ejercicio 5](../.gitbook/assets/05_exercise_05.png)
 
 El código del ejercicio es:
-```js
+
+```javascript
 Grid {
 
   anchors.bottom: page.bottom
@@ -529,7 +533,7 @@ El interfaz de usuario de la calculadora se puede usar en el ordenador pero los 
 
 Los botones tienen dos propiedades que permiten definir su tamaño en vertical y en horizontal. El texto del botón no se adapta de forma automática al tamaño del botón que lo contiene por lo que habrá que adaptarlo también. El botón quedaría con la siguiente estructura:
 
-```js
+```javascript
 Button {
 
   // Texto y tamaño de la fuente
@@ -546,9 +550,9 @@ Button {
 }
 ```
 
-Hay que repetir la misma estructura en todos los botones. Para que sea más sencillo ajustar el tamaño del botón (recordad que ahora se está definiendo de forma manual) hay definidas dos variables que contienen la dimensión en GridUnits. Las variables se definen antes de la vista (Page) y tienen la siguiente estructura:
+Hay que repetir la misma estructura en todos los botones. Para que sea más sencillo ajustar el tamaño del botón \(recordad que ahora se está definiendo de forma manual\) hay definidas dos variables que contienen la dimensión en GridUnits. Las variables se definen antes de la vista \(Page\) y tienen la siguiente estructura:
 
-```js
+```javascript
 property real buttonWidth: units.gu(13)
 property real buttonHeight: units.gu(7)
 ```
@@ -557,11 +561,11 @@ Se define con la palabra property para indicar que es una variable. Real define 
 
 **Ejercicio 6**. Tenéis que ajustar el tamaño del texto y las dimensiones de todos los botones de la calculadora. El resultado tiene que ser similar al siguiente:
 
-![Resultado del ejercicio 6](chapter-04-s02/06_exercise_06.png)
+![Resultado del ejercicio 6](../.gitbook/assets/06_exercise_06.png)
 
 El código asociado:
 
-```js
+```javascript
 Grid {
 
   anchors.bottom: page.bottom
@@ -779,3 +783,4 @@ Button {
 ```
 
 Con este último ejemplo acaba la entrega de esta semana. El siguiente paso consiste en añadir una etiqueta en la parte superior de la pantalla para mostrar las operaciones y su resultado.
+

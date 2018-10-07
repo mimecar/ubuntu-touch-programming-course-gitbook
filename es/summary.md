@@ -1,5 +1,6 @@
 # Summary
-* [Acerca de...](README.md)
+
+* [Acerca de...](./)
 * [Introducción](chapter-01.md)
 * [Instalación de las herramientas de desarrollo](chapter-02-sdk.md)
 * [Creación de una Web App](chapter-03-webapp.md)
@@ -14,6 +15,6 @@
 * [Aplicaciones nativas de escritorio con QML](chapter-06.md)
   * [Introducción a la aplicación](chapter-06-s01.md)
 * [Conceptos avanzados de QML](chapter-05-advanced.md)  
-    * [Acceso a base de datos con QML](chapter-05-s01.md)
-    * [QML y gráficas](chapter-05-s02.md)
+  * [Acceso a base de datos con QML](chapter-05-s01.md)
+  * [QML y gráficas](chapter-05-s02.md)
 

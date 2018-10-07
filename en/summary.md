@@ -1,5 +1,6 @@
 # Summary
-* [About...](README.md)
+
+* [About...](./)
 * [Introduction](chapter-01.md)
 * [Installing the development tools](chapter-02.md)
 * [Creating a Web App](chapter-03-webapp.md)
@@ -12,3 +13,4 @@
 * [Advanced QML Concepts](chapter-05-advanced.md)  
   * [Database access with QML](chapter-05-s01.md)
   * [QML and Charts](chapter-05-s02.md)
+
