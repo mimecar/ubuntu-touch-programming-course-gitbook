@@ -1,5 +1,4 @@
-# LANGS
-
+# Languages
 * [English](en/)
 * [Español](es/)
 
