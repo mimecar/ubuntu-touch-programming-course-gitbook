@@ -1,9 +1,8 @@
 # Summary
 
-* [Acerca de...](./)
-* [Introducción](es/chapter-01.md)
-* [Instalación de las herramientas de desarrollo](es/chapter-02-sdk.md)
-* [Creación de una Web App](es/chapter-03-webapp.md)
+* [Introducción](chapter-01.md)
+* [Instalación de las herramientas de desarrollo](chapter-02-sdk.md)
+* [Creación de una Web App](chapter-03-webapp.md)
 * [Creación de una aplicación con QML](chapter-04-qml.md)
   * [Introducción al lenguaje QML](chapter-04-s01.md)
   * [Organización de los componentes](chapter-04-s02.md)

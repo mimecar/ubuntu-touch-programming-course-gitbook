@@ -4,7 +4,6 @@
 * [LANGS](langs.md)
 
 * [English](en/README.md)
- * [About...](./)
  * [Introduction](chapter-01.md)
  * [Installing the development tools](chapter-02.md)
  * [Creating a Web App](chapter-03-webapp.md)
@@ -19,7 +18,6 @@
    * [QML and Charts](chapter-05-s02.md)
   
 * [Español](es/README.md)
- * [Acerca de...](./)
  * [Introducción](chapter-01.md)
  * [Instalación de las herramientas de desarrollo](chapter-02-sdk.md)
  * [Creación de una Web App](chapter-03-webapp.md)
@@ -36,5 +34,6 @@
  * [Conceptos avanzados de QML](chapter-05-advanced.md)  
    * [Acceso a base de datos con QML](chapter-05-s01.md)
    * [QML y gráficas](chapter-05-s02.md)
+
 
 

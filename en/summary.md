@@ -1,7 +1,6 @@
 # Summary
 
-* [About...](./)
-* [Introduction](en/chapter-01.md)
+* [Introduction](chapter-01.md)
 * [Installing the development tools](chapter-02.md)
 * [Creating a Web App](chapter-03-webapp.md)
 * [Creating a QML App](chapter-04-qml.md)
