@@ -1,4 +1,4 @@
-# chapter-02
+# Installing the Ubuntu Touch SDK
 
 ## Introduction
 
@@ -204,4 +204,3 @@ Wait a couple of seconds and select the device as the compilation target. It is 
 * Larrea Mikel: revision of the chapter in Spanish.
 * Cesar Herrera: revision of the English translation.
 * Joan CiberSheep: revision of the English translation.
-
