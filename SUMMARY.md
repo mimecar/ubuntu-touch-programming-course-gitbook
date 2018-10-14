@@ -5,7 +5,9 @@
 
 * [English](en/README.md)
  * [Introduction](en/chapter-01.md)
- * [Installing the development tools](en/chapter-02.md)
+ * [Installing the development tools](en/chapter-02-introduction.md)
+   * [Ubuntu SDK](en/chapter-02-s01.md)
+   * [Atom + Clickable](en/chapter-02-s02.md)
  * [Creating a Web App](en/chapter-03-webapp.md)
  * [Creating a QML App](en/chapter-04-qml.md)
    * [Introduction to QML language](en/chapter-04-s01.md)
