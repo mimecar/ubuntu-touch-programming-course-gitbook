@@ -111,7 +111,7 @@ Now, we can look at the entry point of our chart page: the "Chart" button, his s
 ```javascript
 // Listing 02
 Button {
-  id:showCahrtButton
+  id:showChartButton
   text: i18n.tr("Chart")
   width: units.gu(14)
   color: UbuntuColors.green
