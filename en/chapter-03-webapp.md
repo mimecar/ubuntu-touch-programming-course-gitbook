@@ -8,9 +8,9 @@ In this chapter we’ll study the creation of a Web App and will go through all 
 
 ### What is a Web App?
 
-A Web App is a type of Ubuntu Touch application. It works by displaying a web page as if it were a standalone application. Like any other application, it will appear in the scope of applications and can be managed from the Ubuntu Store. You may wonder why display a web page as an app if the browser already does that natively.
+A Web App is a type of Ubuntu Touch application. It works by displaying a web page as if it were a standalone application. Like any other application, it will appear in the scope of applications and can be managed from the Ubuntu Store. You may wonder why it is necessary to display a web page as an app if the browser already does that natively.
 
-Internally, the browser and a Web App share the same code base. The difference is that the Web App is isolated, so it does not share information with the browser. Also the user can only open URLs that match a filter that is previously defined. However, this type of applications has a limited access to device resources. If you need to access these resources you must write a native application.
+Internally, the browser and a Web App share the same code base. The difference is that the Web App is isolated, so it does not share information with the browser. Also the user can only open URLs that match a filter that is previously defined. However, this type of application has limited access to a device's resources. If you need to access these resources, you must write a native application.
 
 From the programming point of view, a Web App is the easiest type of application that can be found: just define the URLs that you are interested in. It’s really simple to make and the SDK does all the work for you. To distribute a Web App it is necessary to package it as a click package that can be uploaded to the Ubuntu Store. Once uploaded to the Ubuntu Store, a Web App is automatically added to [uApp Explorer](https://uappexplorer.com/apps?type=webapp).
 
