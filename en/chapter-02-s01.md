@@ -125,7 +125,7 @@ In the last step of the wizard you can configure the physical devices and the em
 
 ## Hello World
 
-In order to keep the good traditions, the first step is to program a minimal application that allows us to check the correct operation of the SDK. The application will run on the computer natively and on a tablet. As you will see is quite simple to do it. Kits are updated frequently. If the following screen appears, all the kits must be marked and updated.
+Maintaining good tradition, the first step is to program a minimal application that allows us to check the correct operation of the SDK. The application will run on the computer natively and on a tablet. As you will see it is quite simple to do. Kits are updated frequently. If the following screen appears, all the kits must be marked and updated.
 
 ![Kit Updates](../.gitbook/assets/19_kit_update%20%281%29.jpg)
 

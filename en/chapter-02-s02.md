@@ -2,28 +2,28 @@
 
 ## The new development environment
 
-**The new environment changes ONLY the tools used for application development; ALL the concepts exposed in the previous chapters (QML, JavaScript...) are valid again !**
-Also the source code don’t need modifications to be compliant with the new environment.
+**The new environment changes ONLY the tools used for application development; ALL the concepts exposed in the previous chapters (QML, JavaScript...) are still valid!**
+Also the source code doesn't need modifications to be compliant with the new environment.
 
-In the previous chapters of this course we have used Ubuntu SDK-IDE as "official" development tool.
+In the previous chapters of this course we have used the Ubuntu SDK-IDE as "official" development tool.
 
-Now the situation is changed: **UBports community decide to deprecate that SDK-IDE and his related tools** like phone emulator (more info at: [Clickable for Atom](https://ubports.com/blog/ubports-blog-1/post/clickable-for-atom-98)).
-The UBports community environment will be exposed in this section.
+Now the situation has changed: **The UBports community has decided to deprecate the SDK-IDE and its related tools** like the phone emulator (more info at: [Clickable for Atom](https://ubports.com/blog/ubports-blog-1/post/clickable-for-atom-98)).
+The official UBports solution will be discussed in this section.
 
-If you don’t want leave **Ubuntu SDK-IDE**, an unofficial alternative, is use the Virtual Machine based on 16.04 with Ubuntu sdk-ide provided with this course. You can download it from [this link](https://drive.google.com/file/d/0B9PnbdpLgp86LWNYQ0JOcnNiTVE/view)
+If you don’t want to leave the **Ubuntu SDK-IDE**, an unofficial alternative is to use the Virtual Machine based on 16.04 provided with this course. You can download it from [this link](https://drive.google.com/file/d/0B9PnbdpLgp86LWNYQ0JOcnNiTVE/view).
 
 
 The **UBports** development environment is composed of three parts:
-1. [Atom editor](https://atom.io/)
-1. [Clickable](http://clickable.bhdouglass.com/en/latest/ ) as tool to build, compile an run applications.
-1. [atom-build-clickable](https://atom.io/packages/atom-build-clickable) an Atom plugin to use Clickable from Atom
+1. [Atom editor](https://atom.io/).
+1. [Clickable](http://clickable.bhdouglass.com/en/latest/) as the tool to build, compile and run applications.
+1. [atom-build-clickable](https://atom.io/packages/atom-build-clickable) an Atom plugin to use Clickable from Atom.
 
-For deeper informations about them, please, see their web site: we’ll present only the necessary informations.
+For more information, please refer to their respective websites; we’ll present only the necessary information.
 
 ## Clickable
 
-**Clickable** is a command line tool to build, run and deploy Ubuntu Touch (UBports) applications. Currently the last stable version is the 5.0.0. To install it or get the official documentation [visit this link](http://clickable.bhdouglass.com/en/latest/install.html).
-We don’t report here the installation steps because are already well explained on the web site.
+**Clickable** is a command line tool to build, run and deploy Ubuntu Touch (UBports) applications. Currently the last stable version is 5.0.0. To install it or get the official documentation [visit this link](http://clickable.bhdouglass.com/en/latest/install.html).
+We won’t cover installation here because that is already well explained on the web site.
 
 **Note:** If you have a Nvidia graphic card, we suggest to use the open source Nvidia driver (named "Nouveau") not the closed source version, currently could be little issues using the new development environment.
 

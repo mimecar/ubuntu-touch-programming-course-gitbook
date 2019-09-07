@@ -2,17 +2,17 @@
 
 ## Introduction
 
-This course is a new project to learn how to program applications that work on Ubuntu Touch. In the process I will generate documentation with all the phases of development of an application: requirements acquisition, implementation and distribution in the Ubuntu store. One of the problems found in Ubuntu Touch is the lack of applications, both, in number and in functionality. I do not expect to change this situation in the short term, but one way to change it, is by programming applications and helping other users do the same. Only in this way it will \(it\) be possible to change this situation.
+This course is a new project to learn how to program applications that work on Ubuntu Touch. In the process I will generate documentation with all the phases of development of an application: requirements acquisition, implementation and distribution to the Ubuntu store. One of the problems found in Ubuntu Touch is the lack of applications, both, in number and in functionality. I do not expect to change this situation in the short term, but one way to change it, is by programming applications and helping other users do the same. Only in this way will it be possible to change this situation.
 
-This course is not a master class in which I explain something and others repeat them automatically. The idea, is to publish chapters and complete the course documentation with the feedback of the other users. If a particular block gets more interest, it can be extend later. There is no problem in asking questions in the resources associated with the course.
+This course is not a master class in which I explain something and others repeat them automatically. The idea, is to publish chapters and complete the course documentation with the feedback of the other users. If a particular block gets more interest, it can be extended later. There is no problem in asking questions in the resources associated with the course.
 
-The documentation will be structured as a book. Its access is free and any user can read it in the browser or as PDF, ePub or Mobi files. You can [add comments to the book](https://github.com/mimecar/ubuntu-touch-programming-course-gitbook/issues) in the GitHub repository. The examples source code is hosted in GitHub and uses Git as version control.
+The documentation will be structured as a book. Its access is free and any user can read it in the browser or as a PDF, ePub or Mobi file. You can [add comments to the book](https://github.com/mimecar/ubuntu-touch-programming-course-gitbook/issues) in the GitHub repository. The examples source code is hosted in GitHub and uses Git as version control.
 
-Finally I want to thank the users who have encouraged me to start this madness, among them are kain\_X\_X and LarreaMikel. A course of this type can not be done by a single user. Evolving and achieving larger goals is only possible when many people contribute to.
+Finally I want to thank the users who have encouraged me to start this madness, among them are kain\_X\_X and LarreaMikel. A course of this type can not be done by a single user. Evolving and achieving larger goals is only possible when many people contribute.
 
 ## Previous Knowledge
 
-Due to the subject of the course itself, some programming skills are requested. In this course we will mainly use QML for the user interface and JavaScript or C/C++ for the logic. It helps to know either of the two languages, ​​although it will not be critical. Each chapter will explain the basic elements and a bibliography will be included for the user to consult if in doubt.
+Due to the subject of the course itself, some programming skills are required. In this course we will mainly use QML for the user interface and JavaScript or C/C++ for the logic. It helps to know either of the two languages, although it will not be critical. Each chapter will explain the basic elements and a bibliography will be included for the user to consult if in doubt.
 
 The Ubuntu Touch Software Development Kit \(SDK\) is being released for the Ubuntu distribution. It will therefore be necessary to use Ubuntu or any of the distributions that take it as a base. Not meeting this requirement is not a serious problem either, because you can do the same in a virtual machine or using a Live USB.
 
@@ -22,7 +22,7 @@ To make it easier to follow the course, I will only put the most important parts
 
 The main objective of the course is to learn how to program applications for Ubuntu Touch while having fun. Programming is a time-consuming task and you have to like what you are doing. Applications can be simple or complex, the important thing is that they solve a need that we have. For example, an application that has a list of plants in the garden and let us know when we have to water them.
 
-A good design in the logic of the application can greatly reduce development time. In the same way a bad design can cause to end up throwing the code to the recycle bin and starting over, because it is easier to start with a different approach.
+A good design in the logic of the application can greatly reduce development time. Conversely, a bad design could result in having to throw out the code and starting over, because it is easier to start with a different approach.
 
 ## Types of Applications
 
@@ -30,7 +30,7 @@ Ubuntu Touch has three types of applications. We can find Web Applications \(Web
 
 ![WebApp Example](../.gitbook/assets/01_webapp.png)
 
-The scope is the second type of application found in Ubuntu Touch. To some extent it behaves like a screen that shows information to the user. The information can be external, for example the weather forecast, or internal in the form of information aggregator. An example of this case would be the "Today" scope. This scope shows information from different applications.
+The scope is the second type of application found in Ubuntu Touch. To some extent it behaves like a screen that shows information to the user. The information can be external, for example the weather forecast, or internal in the form of an information aggregator. An example of this case would be the "Today" scope. This scope shows information from different applications.
 
 ![Scope Example](../.gitbook/assets/02_scope%20%281%29.png)
 
@@ -40,7 +40,7 @@ Finally we have native applications. In this case the applications can access al
 
 ## Evolution of the Course
 
-One detail that I want to point out \(and that you will get tired of reading it throughout the course\) is that this course is not a master class. It is important that you participate with either questions, suggestions or errors. The order of the chapters can vary and chapters that were already closed can be opened to add new content. This course is alive and can only be improved if we all get involved. It doesn’t matter if questions are very basic or what the other users would say. The main reason of following this course is learning. Remember: The only stupid questions is the one that you don’t ask.
+One detail that I want to point out \(and that you will get tired of reading it throughout the course\) is that this course is not a master class. It is important that you participate with either questions, suggestions or errors. The order of the chapters can vary and chapters that were already closed can be opened to add new content. This course is alive and can only be improved if we all get involved. It doesn’t matter if questions are very basic or what the other users would say. The main reason of following this course is learning. Remember: The only stupid questions are the ones that you don’t ask.
 
 Access to the mailing list is open and only a Launchpad account is needed. There is no censorship except several cases of common sense:
 
@@ -48,9 +48,9 @@ Access to the mailing list is open and only a Launchpad account is needed. There
 * Spam of any kind is not allowed.
 * Attacking other users is not allowed.
 
-If any of these rules is broken, I will warn the person first. If the user continues with its attitude, will be asked to leave the mailing list. I hope I never have to get to that end.
+If any of these rules are broken, I will warn the person first. If the user continues with their attitude, they will be asked to leave the mailing list. I hope I never have to do that.
 
-This course is not set as a whole and therefore I will write it week after week. For this reason, it is possible that some error appears. If this is the case, do not hesitate to warn me in order to correct it. This course is an opportunity to create content and give a boost to Ubuntu Touch.
+This course is not set as a whole and therefore I will write it week after week. For this reason, it is possible that some errors appear. If this is the case, do not hesitate to warn me in order to correct it. This course is an opportunity to create content and give a boost to Ubuntu Touch.
 
 ## Resources
 
