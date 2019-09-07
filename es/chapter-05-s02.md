@@ -113,7 +113,7 @@ Ahora se puede buscar el punto de entrada a la pantalla de la gráfica: el botó
 ```javascript
 // Listing 02
 Button {
-  id:showCahrtButton
+  id:showChartButton
   text: i18n.tr("Chart")
   width: units.gu(14)
   color: UbuntuColors.green
